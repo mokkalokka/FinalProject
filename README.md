@@ -3,23 +3,20 @@
 
 Todo:
 
-
-
 Unassigned:
-* Finne bilder
-
-* Bakgrunnsbilde/ design for landing siden
-* 
 
 
 --Michael--
 * Finne mere informasjon om ideèn.
-
+* Ikoner
+* Bakgrunnsbilde/ design for landing siden
 
 --Eskil--
-* Bestemme oss for farger
+* Finne bilder
 
 --Jonathan--
 * Fikse skallkode til HTML.
   - Med karusell-effekt.
-  
+* Bestemme oss for farger (CSS variabler?)
+
+* Logo
