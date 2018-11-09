@@ -13,6 +13,7 @@ Unassigned:
 
 --Eskil--
 * Finne bilder
+* Fikse layout på moduler (bilde + infotekst)
 
 --Jonathan--
 * Fikse skallkode til HTML.
