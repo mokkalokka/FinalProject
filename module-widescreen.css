@@ -1,0 +1,52 @@
+
+
+
+.module {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem;
+    margin: 1% 10%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.module-left {
+
+}
+
+.module-right {
+
+}
+
+.module-text h2 {
+    text-align: center;
+}
+
+.module-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-buttons {
+    display: block;
+    white-space: nowrap;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.arrow-button {
+    display: inline-block;
+    width: 4rem;
+}
+
+.arrow-button img {
+
+}
+
+.left-arrow {
+
+}
+
+
+
