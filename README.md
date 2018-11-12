@@ -12,8 +12,8 @@ Unassigned:
 * Bakgrunnsbilde/ design for landing siden
 
 --Eskil--
-* Finne bilder
 * Fikse layout på moduler (bilde + infotekst)
+* Fikse layout på footer
 
 --Jonathan--
 * Fikse skallkode til HTML.
