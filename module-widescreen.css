@@ -1,14 +1,46 @@
+body {
+  margin: 0;
+}
 
+#module-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
+section {
+  height:100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.next {
+  position:absolute;
+  bottom:0;
+  left:50%;
+  margin-left:-36px;
+  cursor:pointer;
+  font-size:400%;
+}
+
+.next:after {
+  content:'▼';
+}
 
 .module {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column-gap: 2rem;
-    margin: 1% 10%;
     font-family: sans-serif;
     box-sizing: border-box;
-}
+
+  }
 
 .module-left {
 
@@ -47,6 +79,3 @@
 .left-arrow {
 
 }
-
-
-
