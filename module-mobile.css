@@ -1,48 +1,31 @@
-
-section {
-    margin-bottom: 5rem;
-}
-
 .module {
-    display: block;
-    margin: 0.7rem;
-    font-family: sans-serif;
+  display: block;
+  margin: 0.7rem;
+  font-family: sans-serif;
 }
 
-.module-left {
+.module-left {}
 
-}
-
-.module-right {
-
-}
+.module-right {}
 
 .module-text h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .module-img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .nav-buttons {
-    display: none;
+  display: none;
 }
 
 .arrow-button {
-    display: inline-block;
-    width: 4rem;
+  display: inline-block;
+  width: 4rem;
 }
 
-.arrow-button img {
+.arrow-button img {}
 
-}
-
-.left-arrow {
-
-}
-
-
-
-
+.left-arrow {}

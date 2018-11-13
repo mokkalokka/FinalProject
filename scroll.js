@@ -10,13 +10,13 @@ function slideDown(n) {
   var scrolledDown = currentSection.offsetTop;
 
   // Magisk formel, ikke rør, virker nå
-  frame.style.top = (-offsetTop.height-offsetTop.top) + 'px';
+  frame.style.top = (-offsetTop.height - offsetTop.top) + 'px';
 
-  setTimeout(function () {
+  setTimeout(function() {
     // Flytt ordenlig scrollbar etter transistion
     frame.style.transition = 'none';
     frame.style.top = '';
-    window.scrollTo(0, offsetTop.height+scrolledDown);
+    window.scrollTo(0, offsetTop.height + scrolledDown);
     frame.style.transition = transitionFormula;
 
 

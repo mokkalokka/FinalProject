@@ -7,10 +7,11 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 section {
-  height:100vh;
+  height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -18,65 +19,55 @@ section {
 }
 
 .next {
-  position:absolute;
-  bottom:0;
-  left:50%;
-  margin-left:-36px;
-  cursor:pointer;
-  font-size:400%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -36px;
+  cursor: pointer;
+  font-size: 400%;
 }
 
 .next:after {
-  content:'▼';
+  content: '▼';
 }
 
 .module {
-    width: 80%;
-    margin-top:200vh;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 2rem;
-    font-family: sans-serif;
-    box-sizing: border-box;
-
-  }
-
-.module-left {
-
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 2rem;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
-.module-right {
+.module-left {}
 
-}
+.module-right {}
 
 .module-text h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .module-img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .nav-buttons {
-    display: block;
-    white-space: nowrap;
-    width: 40%;
-    margin: 0 auto;
-    text-align: center;
+  display: block;
+  white-space: nowrap;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .arrow-button {
-    display: inline-block;
-    width: 4rem;
+  display: inline-block;
+  width: 4rem;
 }
 
-.arrow-button img {
+.arrow-button img {}
 
-}
-
-.left-arrow {
-
-}
+.left-arrow {}

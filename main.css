@@ -1,63 +1,56 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
+  font-family: sans-serif;
+  margin: 0;
 }
 
-header{
-    background-image: url("Media/smoke-background-large.png");
-    background-size: cover;
-    height: 100vh;
-    border-bottom: gray solid 0.01rem;
-    z-index: 10;
+.one {
+  background-image: url("Media/smoke-background-large.png");
+  background-size: cover;
+  border-bottom: gray solid 0.01rem;
+  z-index: 10;
 }
+
 .one .title {
   text-align: center;
 }
 
-
-body {
-    font-family: sans-serif;
-}
-
-
 footer {
-    width: 100%;
-    height: 15rem;
-    background-color: rgb(188, 188, 188);
-    text-align: center;
-    align-content: center;
-    padding: 3rem;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    box-sizing: border-box;
-
+  width: 100%;
+  height: 15rem;
+  background-color: rgba(244, 111, 48, 0.9);
+  /* eller rgb(188, 188, 188); */
+  text-align: center;
+  align-content: center;
+  padding: 3rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
 }
 
 .footer-content {
-    height: 8rem;
-    margin: auto;
-    font-size: 0.9rem;
+  height: 8rem;
+  margin: auto;
+  font-size: 0.9rem;
 }
 
 .footer-logo {
-    height: 5rem;
-    width: auto;
-    display: inline;
+  height: 5rem;
+  width: auto;
+  display: inline;
 }
 
 .footer-text {
-    margin-left: 3rem;
-    margin-right: 3rem;
-
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
-.footer-text a{
-    color: inherit;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 1rem;
+.footer-text a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 1rem;
 }
