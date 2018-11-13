@@ -8,8 +8,9 @@ Unassigned:
 
 --Michael--
 * Finne mere informasjon om ideèn.
-* Ikoner
 * Bakgrunnsbilde/ design for landing siden
+* Fikse close på dropdown menyen
+
 
 --Eskil--
 * Finne bilder
@@ -17,7 +18,10 @@ Unassigned:
 
 --Jonathan--
 * Fikse skallkode til HTML.
-  - Med karusell-effekt.
 * Bestemme oss for farger (CSS variabler?)
-
 * Logo
+
+
+
+--Ferdig--
+* Ikoner

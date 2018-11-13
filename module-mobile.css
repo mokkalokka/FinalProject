@@ -1,0 +1,46 @@
+
+
+
+.module {
+    display: block;
+    margin: 0.7rem;
+    font-family: sans-serif;
+}
+
+.module-left {
+
+}
+
+.module-right {
+
+}
+
+.module-text h2 {
+    text-align: center;
+}
+
+.module-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-buttons {
+    display: none;
+}
+
+.arrow-button {
+    display: inline-block;
+    width: 4rem;
+}
+
+.arrow-button img {
+
+}
+
+.left-arrow {
+
+}
+
+
+
+
