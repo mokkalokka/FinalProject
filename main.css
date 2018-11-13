@@ -23,7 +23,7 @@ body {
 footer {
     width: 100%;
     height: 15rem;
-    background-color: rgb(188, 188, 188);
+    background-color: rgba(244, 111, 48,0.9); /* eller rgb(188, 188, 188); */
     text-align: center;
     align-content: center;
     padding: 3rem;

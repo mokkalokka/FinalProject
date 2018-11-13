@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     margin: 0  auto 1rem auto;
-    background-color: rgba(188, 188, 188, 0.9);
+    background-color: rgba(244, 111, 48,0.9); /* eller rgb(188, 188, 188); */
     width: 100%;
     position:fixed;
     top: 0;
