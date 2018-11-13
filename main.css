@@ -4,7 +4,7 @@ body {
 }
 
 header{
-    background-image: url("Media/background.png");
+    background-image: url("Media/smoke-background-large.png");
     background-size: cover;
     height: 100vh;
     border-bottom: gray solid 0.01rem;
