@@ -7,6 +7,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 section {
@@ -31,10 +32,9 @@ section {
 }
 
 .module {
-    width: 80%;
-    margin-top:200vh;
-    margin-left: auto;
-    margin-right: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column-gap: 2rem;
