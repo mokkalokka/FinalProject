@@ -8,12 +8,12 @@ header{
     background-size: cover;
     height: 100vh;
     border-bottom: gray solid 0.01rem;
+    z-index: 10;
+}
+.one .title {
+  text-align: center;
 }
 
-.title{
-    text-align: center;
-    padding-top: 40vh;
-}
 
 body {
     font-family: sans-serif;
@@ -60,9 +60,3 @@ footer {
     display: block;
     margin-bottom: 1rem;
 }
-
-
-
-
-
-
