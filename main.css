@@ -3,10 +3,9 @@ body {
     margin: 0;
 }
 
-header{
+.one{
     background-image: url("Media/smoke-background-large.png");
     background-size: cover;
-    height: 100vh;
     border-bottom: gray solid 0.01rem;
     z-index: 10;
 }
