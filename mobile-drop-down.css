@@ -25,7 +25,10 @@
 }
 .dropdown-content img{
     width: 2rem;
-    margin: 0    10vh;
+    float:right;
+    margin-right: 2rem;
+    border-radius:100%;
+    border:solid 0.05rem;
 
 }
 
@@ -38,8 +41,11 @@
     text-align: center;
 }
 
-#close:hover .dropdown-content {opacity: 0.2; display: none;}
-.dropdown-content a:hover {background-color: #ddd;}
+#close:hover {
+    background-color: rgba(255,255,255,0.7);
+    border:solid 0.2rem rgba(255,255,255,0.2) ;
+}
+.dropdown-content a:hover {background-color: rgba(255,255,255,0.7); /*#ddd;*/}
 .drop-down-menu:hover .dropdown-content {display: block;}
 
 .navbar{
