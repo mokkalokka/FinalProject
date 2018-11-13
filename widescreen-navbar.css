@@ -1,0 +1,30 @@
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 0  auto 1rem auto;
+    background-color: rgba(188, 188, 188, 0.9);
+    width: 100%;
+    position:fixed;
+    top: 0;
+
+}
+.navbar li{
+    display: inline;
+    padding: 1rem 3rem;
+
+}
+.navbar a:hover{
+    border-bottom: solid white 0.1rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.drop-down-menu{
+    display: none;
+}
+
+
