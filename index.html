@@ -2,8 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Virtual Aspie</title>
+    <title>Title</title>
+    <link rel="stylesheet" media="screen and (max-width: 900px)" type="text/css" href="module-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 901px)" type="text/css" href="module-widescreen.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)"  href="mobile-drop-down.css">
+    <link rel="stylesheet" media="screen and (min-width: 901px)"  href="widescreen-navbar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="./scroll.js" defer></script>
 </head>
 <body>
 
@@ -15,36 +22,134 @@
             <li><a href="#">Om produktet</a></li>
             <li><a href="#">Forskning</a></li>
             <li><a href="#">Referanser</a></li>
-            <li><button>close</button></li>
         </ul>
     </div>
 
- <!--   <div class="drop-down-menu">
-        <img id="menu-img" src="Media/menu.svg" alt="Drop down menu">
-        <div class="dropdown-content">
+    <div class="drop-down-menu">
+        <h5>Menu</h5>
+        <div class="roundBorder">
+            <img onclick="openMenu()" id="menu-img" src="Media/menu.svg" alt="Drop down menu">
+        </div>
+        <div id="dropdown" class="dropdown-content">
             <a href="#">Problemet</a>
             <a href="#">Løsningen</a>
             <a href="#">Om produktet</a>
             <a href="#">Forskning</a>
             <a href="#">Referanser</a>
+            <img onclick="closeMenu()" id="close" src="Media/cancel.svg" alt="Close menu">
         </div>
     </div>
 
-    </div>
-      -->
+
     <div class="title"><h1>Social VR Learning</h1></div>
 </header>
 
 
+<div id="module-frame">
+
+    <section class="one">
+        <div class="module">
+            <div class="module-left">
+                <img class="module-img" src="Media\ensomtBarnCropped.png">
+            </div>
+            <div class="module-right">
+                <div class="module-text">
+                    <h2>Problemet</h2>
+                    <p>Lorem ipsum dolor sit amet, augue accusata ei sea. Id quo nulla definiebas, tempor oporteat percipitur ius in, te quas possit mea. Consequat forensibus nam te, ut soleat vidisse aperiam duo. Vis fabulas constituto et, mel ad saepe concludaturque, te mel audire aperiam splendide. Cu zril maiorum qui, ut libris equidem nec.
+                    </p>
+                    <p>Discere concludaturque vel ei. Per errem omnesque eu. Vix in aeque euismod, nec putant mediocritatem te, eum ad duis inciderint. Tota recteque ut est, qui facer nusquam id.</p>
+                    <p>Per debet imperdiet efficiendi id. Eu stet scribentur nam, quo sint prima dictas in. Deseruisse theophrastus ut est. Mel et veri omnium, ex pro vidit dicta harum, stet utinam eum ei. Per an postea adipiscing, pro fastidii dissentias ei. Malis ignota ne sea, sit expetenda laboramus ea.</p>
+                </div>
+            </div>
+            <div onClick="slideDown(0)" class="next"></div>
+        </div>
+    </section>
+
+    <section class="two">
+        <div class="module">
+            <div class="module-left">
+                <img class="module-img" src="Media\cardboardVR.jpg">
+            </div>
+            <div class="module-right">
+                <div class="module-text">
+                    <h2>Løsningen</h2>
+                    <p>Lorem ipsum dolor sit amet, augue accusata ei sea. Id quo nulla definiebas, tempor oporteat percipitur ius in, te quas possit mea. Consequat forensibus nam te, ut soleat vidisse aperiam duo. Vis fabulas constituto et, mel ad saepe concludaturque, te mel audire aperiam splendide. Cu zril maiorum qui, ut libris equidem nec.
+                    </p>
+                    <p>Discere concludaturque vel ei. Per errem omnesque eu. Vix in aeque euismod, nec putant mediocritatem te, eum ad duis inciderint. Tota recteque ut est, qui facer nusquam id.</p>
+                    <p>Per debet imperdiet efficiendi id. Eu stet scribentur nam, quo sint prima dictas in. Deseruisse theophrastus ut est. Mel et veri omnium, ex pro vidit dicta harum, stet utinam eum ei. Per an postea adipiscing, pro fastidii dissentias ei. Malis ignota ne sea, sit expetenda laboramus ea.</p>
+                </div>
+            </div>
+            <div onClick="slideDown(1)" class="next"></div>
+        </div>
+    </section>
+
+    <section class="three">
+        <div class="module">
+            <div class="module-left">
+                <img class="module-img" src="Media\jenteVR.jpg">
+            </div>
+            <div class="module-right">
+                <div class="module-text">
+                    <h2>Om produktet</h2>
+                    <p>Lorem ipsum dolor sit amet, augue accusata ei sea. Id quo nulla definiebas, tempor oporteat percipitur ius in, te quas possit mea. Consequat forensibus nam te, ut soleat vidisse aperiam duo. Vis fabulas constituto et, mel ad saepe concludaturque, te mel audire aperiam splendide. Cu zril maiorum qui, ut libris equidem nec.
+                    </p>
+                    <p>Discere concludaturque vel ei. Per errem omnesque eu. Vix in aeque euismod, nec putant mediocritatem te, eum ad duis inciderint. Tota recteque ut est, qui facer nusquam id.</p>
+                    <p>Per debet imperdiet efficiendi id. Eu stet scribentur nam, quo sint prima dictas in. Deseruisse theophrastus ut est. Mel et veri omnium, ex pro vidit dicta harum, stet utinam eum ei. Per an postea adipiscing, pro fastidii dissentias ei. Malis ignota ne sea, sit expetenda laboramus ea.</p>
+                </div>
+            </div>
+            <div onClick="slideDown(2)" class="next"></div>
+        </div>
+    </section>
+
+    <section class="four">
+        <div class="module">
+            <div class="module-left">
+                <img class="module-img" src="Media\forskning.jpg">
+            </div>
+            <div class="module-right">
+                <div class="module-text">
+                    <h2>Research</h2>
+                    <p>Numerous academic papers have proven virtual reality as a promising resource for the development of social adaptation and emotional skills.
+                    </p>
+                    <p>In a <a class="research-link" href="">study from 2018</a>, researchers from Hong Kong conducted a trial using virtual reality as a teaching method for children with ASD. They found significant improvements in the subjects social abilities and emotional expression.</p>
+                    <p></p>
+                </div>
+            </div>
+            <div onClick="slideDown(3)" class="next"></div>
+        </div>
+    </section>
+
+    <section class="five">
+        <div class="module">
+            <div class="module-left">
+                <img class="module-img" src="Media\forskning.jpg">
+            </div>
+            <div class="module-right">
+                <div class="module-text">
+                    <h2>Design</h2>
+                    <p>The design of this website is intended as a demonstration of the general UI principles of the "produktnavnher".</p>
+                    <p>Our goal is for "produktnavn" to be a universally designed product that works for everyone and on a multitude of platforms.
+                        In addition to following best practice and WCAG guidelines, special consideration will also be given to catering the experience for users with ASD. This involves:</p>
+                    <ul>
+                        <li>Having a clean and uncluttered design.</li>
+                        <li>Avoiding animations and movement that is not mutable.</li>
+                        <li>Consistency in the UI.</li>
+                        <li>Simple and direct language - avoiding ambiguous terms and metaphors.</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
 <footer>
-    <div class="footer-content">
+    <div class="footer-content ">
         <span class="footer-text">Virtual Aspie</span>
         <img class="footer-logo" alt="logo her" src="Media/left-arrow.svg">
         <contact class="footer-text"><a href="mailto:test@testemail.com">test@testemail.com</a></contact>
     </div>
 </footer>
-
 
 </body>
 </html>
