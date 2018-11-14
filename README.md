@@ -9,10 +9,14 @@ Unassigned:
 --Michael--
 * Finne mere informasjon om ideèn.
 * Bakgrunnsbilde/ design for landing siden
-* Fikse close på dropdown menyen
+* For mobil: Fikse sticky på dropdown meny og farger på hamburgerikonet (?)
+
+
 
 
 --Eskil--
+* Skrive mer tekst til modulene.
+* 
 * Finne bilder
 * Fikse layout på moduler (bilde + infotekst)
 
