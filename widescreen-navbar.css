@@ -13,7 +13,7 @@
 
 .navbar li {
   display: inline;
-  padding: 1rem 3rem;
+  padding: 1rem 2vw;
 }
 
 .navbar a:hover {
@@ -23,6 +23,7 @@
 .navbar a {
   text-decoration: none;
   color: inherit;
+  font-size: 1.5rem;
 }
 
 .drop-down-menu {
