@@ -1,17 +1,23 @@
 body {
-  font-family: sans-serif;
+  font-family: monospace;
   margin: 0;
+  background: #1A1A1A;
+  color: white;
 }
 
-.one {
-  background-image: url("Media/smoke-background-large.png");
+#one {
+  /*background-image: url("Media/smoke-background-large.png");*/
+  background: #1A1A1A;
+  background-image: url("Media/trianglify.svg");
+  background-image: linear-gradient(to bottom, #00000000, #1A1A1AFF), url("Media/trianglify.svg");
   background-size: cover;
-  border-bottom: gray solid 0.01rem;
+  /*border-bottom: gray solid 0.01rem;*/
   z-index: 10;
 }
 
-.one .title {
+#one .title {
   text-align: center;
+  font-size: 3rem;
 }
 
 footer {

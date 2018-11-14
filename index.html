@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" media="screen and (max-width: 900px)" href="mobile-drop-down.css">
   <link rel="stylesheet" media="screen and (min-width: 901px)" href="widescreen-navbar.css">
+  <link rel="icon" href="Media/favicon.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="text/javascript" src="script.js"></script>
   <script src="./scroll.js" defer></script>
@@ -19,11 +20,11 @@
   <header>
     <nav class="navbar">
       <ul>
-        <li><a href="#">Problemet</a></li>
-        <li><a href="#">Løsningen</a></li>
-        <li><a href="#">Om produktet</a></li>
-        <li><a href="#">Forskning</a></li>
-        <li><a href="#">Referanser</a></li>
+        <li><a href="#">The Problem</a></li>
+        <li><a href="#">The Solution</a></li>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">References</a></li>
       </ul>
     </nav>
 
@@ -33,11 +34,11 @@
         <img onclick="openMenu()" id="menu-img" src="Media/menu.svg" alt="Drop down menu">
       </div>
       <div id="dropdown" class="dropdown-content">
-        <a href="#">Problemet</a>
-        <a href="#">Løsningen</a>
-        <a href="#">Om produktet</a>
-        <a href="#">Forskning</a>
-        <a href="#">Referanser</a>
+        <a href="#">The Problem</a>
+        <a href="#">The Solution</a>
+        <a href="#">Design</a>
+        <a href="#">Research</a>
+        <a href="#">References</a>
         <img onclick="closeMenu()" id="close" src="Media/cancel.svg" alt="Close menu">
       </div>
     </nav>
@@ -45,21 +46,22 @@
 
   <div id="module-frame">
 
-    <section class="one">
+    <section id="one">
       <div class="title">
+        <img alt="logo her" width="200px" height="auto" src="Media/logo-white.svg">
         <h1>Social VR Learning</h1>
       </div>
       <div onClick="slideDown(0)" class="next"></div>
     </section>
 
-    <section class="two">
+    <section id="two">
       <div class="module">
         <div class="module-left">
           <img class="module-img" src="Media\ensomtBarnCropped.png">
         </div>
         <div class="module-right">
           <div class="module-text">
-            <h2>Problemet</h2>
+            <h2>The Problem</h2>
             <p>
               Lorem ipsum dolor sit amet, augue accusata ei sea. Id quo nulla definiebas, tempor oporteat percipitur ius in, te quas possit mea. Consequat forensibus nam te, ut soleat vidisse aperiam duo. Vis fabulas constituto et, mel ad saepe
               concludaturque, te mel audire aperiam splendide. Cu zril maiorum qui, ut libris equidem nec.
@@ -75,14 +77,14 @@
       </div>
     </section>
 
-    <section class="three">
+    <section id="three">
       <div class="module">
         <div class="module-left">
           <img class="module-img" src="Media\cardboardVR.jpg">
         </div>
         <div class="module-right">
           <div class="module-text">
-            <h2>Løsningen</h2>
+            <h2>The Solution</h2>
             <p>
               Lorem ipsum dolor sit amet, augue accusata ei sea. Id quo nulla definiebas, tempor oporteat percipitur ius in, te quas possit mea. Consequat forensibus nam te, ut soleat vidisse aperiam duo. Vis fabulas constituto et, mel ad saepe
               concludaturque, te mel audire aperiam splendide. Cu zril maiorum qui, ut libris equidem nec.
@@ -98,14 +100,14 @@
       </div>
     </section>
 
-    <section class="four">
+    <section id="four">
       <div class="module">
         <div class="module-left">
           <img class="module-img" src="Media\jenteVR.jpg">
         </div>
         <div class="module-right">
           <div class="module-text">
-            <h2>Om produktet</h2>
+            <h2>References</h2>
             <p>
               Lorem ipsum dolor sit amet, augue accusata ei sea. Id quo nulla definiebas, tempor oporteat percipitur ius in, te quas possit mea. Consequat forensibus nam te, ut soleat vidisse aperiam duo. Vis fabulas constituto et, mel ad saepe
               concludaturque, te mel audire aperiam splendide. Cu zril maiorum qui, ut libris equidem nec.
@@ -121,7 +123,7 @@
       </div>
     </section>
 
-    <section class="five">
+    <section id="five">
       <div class="module">
         <div class="module-left">
           <img class="module-img" src="Media\forskning.jpg">
@@ -141,7 +143,7 @@
       </div>
     </section>
 
-    <section class="six">
+    <section id="six">
       <div class="module">
         <div class="module-left">
           <img class="module-img" src="Media\forskning.jpg">
@@ -160,18 +162,20 @@
             </ul>
           </div>
         </div>
+          <div onClick="slideDown(5)" class="next"></div>
       </div>
     </section>
+
+    <section id="seven">
+        <footer>
+            <div class="footer-content ">
+                <span class="footer-text">Virtual Aspie</span>
+                <img class="footer-logo" alt="logo her" src="Media/logo-color.svg">
+                <contact class="footer-text"><a href="mailto:test@testemail.com">test@testemail.com</a></contact>
+            </div>
+        </footer>
+    </section>
+
   </div>
-
-  <footer>
-    <div class="footer-content ">
-      <span class="footer-text">Virtual Aspie</span>
-      <img class="footer-logo" alt="logo her" src="Media/logo-color.svg">
-      <contact class="footer-text"><a href="mailto:test@testemail.com">test@testemail.com</a></contact>
-    </div>
-  </footer>
-
 </body>
-
 </html>
