@@ -8,12 +8,14 @@ Unassigned:
 
 --Michael--
 * Finne mere informasjon om ideèn.
+* Fikse lenker i menyene.
 * Bakgrunnsbilde/ design for landing siden
-* For mobil: Fikse sticky på dropdown meny og farger på hamburgerikonet (?)
+* Legge til tekst på modulene forskning, problem og løsning.
+
 
 
 --Eskil--
-* Skrive mer tekst til modulene.
+* Skrive ferdig design.
 * Finne bilder
 * Fikse layout på moduler (bilde + infotekst)
 * Legge til referanser og sånt på footer.
@@ -26,7 +28,10 @@ Unassigned:
 * Bestemme oss for farger (CSS variabler?)
 * Logo
 
-
+--DIV--
+*Logo på "tab" displayet for nettlesere.
+* Fjerne "navbar" på mobil. 
+* For mobil: Fikse sticky på dropdown meny og farger på hamburgerikonet (?)
 
 --Ferdig--
 * Ikoner
