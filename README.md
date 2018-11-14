@@ -14,7 +14,6 @@ Unassigned:
 
 --Eskil--
 * Skrive mer tekst til modulene.
-* 
 * Finne bilder
 * Fikse layout på moduler (bilde + infotekst)
 
