@@ -46,28 +46,11 @@ section {
 
 .module-right {}
 
-.module-text h2 {
-  text-align: left;
-}
-
 .module-img {
   max-width: 100%;
   height: auto;
 }
 
-.nav-buttons {
-  display: block;
-  white-space: nowrap;
-  width: 40%;
-  margin: 0 auto;
-  text-align: center;
+footer {
+  height: 20rem;
 }
-
-.arrow-button {
-  display: inline-block;
-  width: 4rem;
-}
-
-.arrow-button img {}
-
-.left-arrow {}
