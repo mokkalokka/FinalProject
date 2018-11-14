@@ -5,7 +5,7 @@ body {
   color: white;
 }
 
-.one {
+#one {
   /*background-image: url("Media/smoke-background-large.png");*/
   background: #1A1A1A;
   background-image: url("Media/trianglify.svg");
@@ -15,7 +15,7 @@ body {
   z-index: 10;
 }
 
-.one .title {
+#one .title {
   text-align: center;
   font-size: 3rem;
 }
