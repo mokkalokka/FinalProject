@@ -34,4 +34,4 @@ Unassigned:
 * Legge til pil opp mellom modulene. LITEN BUG på bilen opp til øverste bildet
 * Tekst på første pil ned.
 * Fikse skallkode til HTML.
-* * Bestemme oss for farger (CSS variabler?)
+* Bestemme oss for farger (CSS variabler?)
