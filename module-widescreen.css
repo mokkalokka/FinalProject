@@ -62,6 +62,10 @@ section {
   box-sizing: border-box;
 }
 
+.next:hover, .prev:hover {
+  transform: scale(1.2);
+}
+
 .module-left {}
 
 .module-right {}
