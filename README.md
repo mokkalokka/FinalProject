@@ -22,16 +22,16 @@ Unassigned:
 
 
 --Jonathan--
-* Legge til pil opp mellom modulene.
-* Tekst på første pil ned.
-* Fikse skallkode til HTML.
-* Bestemme oss for farger (CSS variabler?)
 * Logo
 
 --DIV--
 *Logo på "tab" displayet for nettlesere.
-* Fjerne "navbar" på mobil. 
+* Fjerne "navbar" på mobil.
 * For mobil: Fikse sticky på dropdown meny og farger på hamburgerikonet (?)
 
 --Ferdig--
 * Ikoner
+* Legge til pil opp mellom modulene. LITEN BUG på bilen opp til øverste bildet
+* Tekst på første pil ned.
+* Fikse skallkode til HTML.
+* * Bestemme oss for farger (CSS variabler?)
