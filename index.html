@@ -20,33 +20,33 @@
   <header>
     <nav class="navbar">
       <ul>
-        <li><a href="#">The Problem</a></li>
-        <li><a href="#">The Solution</a></li>
-        <li><a href="#">Design</a></li>
-        <li><a href="#">Research</a></li>
-        <li><a href="#">References</a></li>
+        <li><a href="#one">The Problem</a></li>
+        <li><a href="#two">The Solution</a></li>
+        <li><a href="#three">Design</a></li>
+        <li><a href="#four">Research</a></li>
+        <li><a href="#five">References</a></li>
       </ul>
     </nav>
 
     <nav class="drop-down-menu">
       <h5>Menu</h5>
       <div class="roundBorder">
-        <img onclick="openMenu()" id="menu-img" src="Media/menu.svg" alt="Drop down menu">
+        <img onclick="toggleMenu()" id="menu-img" src="Media/menu.svg" alt="Drop down menu">
       </div>
       <div id="dropdown" class="dropdown-content">
-        <a href="#">The Problem</a>
-        <a href="#">The Solution</a>
-        <a href="#">Design</a>
-        <a href="#">Research</a>
-        <a href="#">References</a>
-        <img onclick="closeMenu()" id="close" src="Media/cancel.svg" alt="Close menu">
+        <a href="#one" onclick="toggleMenu()">The Problem</a>
+        <a href="#two" onclick="toggleMenu()">The Solution</a>
+        <a href="#three" onclick="toggleMenu()">Design</a>
+        <a href="#four" onclick="toggleMenu()">Research</a>
+        <a href="#five" onclick="toggleMenu()">References</a>
+        <img onclick="toggleMenu()" id="close" src="Media/cancel.svg" alt="Close menu">
       </div>
     </nav>
   </header>
 
   <div id="module-frame">
 
-    <section id="one">
+    <section id="zero">
       <div class="title">
         <img alt="logo her" width="200px" height="auto" src="Media/logo-white.svg">
         <h1>Social VR Learning</h1>
@@ -59,7 +59,7 @@
       <div onClick="slideTransition(1, 0)" class="next"></div>
     </section>
 
-    <section id="two">
+    <section id="one">
       <div onClick="slideTransition(-1, 1)" class="prev"></div>
       <div class="module">
         <div class="module-left">
@@ -80,7 +80,7 @@
       <div onClick="slideTransition(1, 1)" class="next"></div>
     </section>
 
-    <section id="three">
+    <section id="two">
       <div onClick="slideTransition(-1, 2)" class="prev"></div>
       <div class="module">
         <div class="module-left">
@@ -106,7 +106,7 @@
       <div onClick="slideTransition(1, 2)" class="next"></div>
     </section>
 
-    <section id="four">
+    <section id="three">
       <div onClick="slideTransition(-1, 3)" class="prev"></div>
       <div class="module">
         <div class="module-left">
@@ -125,7 +125,7 @@
       <div onClick="slideTransition(1, 3)" class="next"></div>
     </section>
 
-    <section id="five">
+    <section id="four">
       <div onClick="slideTransition(-1, 4)" class="prev"></div>
       <div class="module">
         <div class="module-left">
@@ -148,7 +148,7 @@
       <div onClick="slideTransition(1, 4)" class="next"></div>
     </section>
 
-    <section id="six">
+    <section id="five">
       <div onClick="slideTransition(-1, 5)" class="prev"></div>
       <div class="module">
         <div class="module-left">
@@ -172,7 +172,7 @@
       <div onClick="slideTransition(1, 5)" class="next"></div>
     </section>
 
-    <section id="seven">
+    <section id="six">
         <footer>
             <div class="footer-logo-box">
                 <span class="footer-text">Virtual Aspie</span>
