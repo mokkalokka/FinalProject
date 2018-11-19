@@ -25,26 +25,42 @@ footer {
   background-color: rgba(244, 111, 48, 0.9);
   /* eller rgb(188, 188, 188); */
   text-align: center;
-  align-content: center;
   padding: 3rem;
   box-sizing: border-box;
 }
 
+.footer-grid {
+  display: inline-grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+
 .footer-logo-box {
   height: 8rem;
-  margin: auto;
   font-size: 0.9rem;
 }
 
 .footer-logo {
-  height: 5rem;
-  width: auto;
+  width: 6rem;
+  height: auto;
 }
 
 .footer-text {
-  margin-left: 3rem;
-  margin-right: 3rem;
+  font-size: 1.2rem;
+  height: 1.2rem;
 }
+
+.left-grid {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-grid {
+  display: flex;
+  justify-content: flex-start;
+}
+
 
 .footer-text a {
   color: inherit;
