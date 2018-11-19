@@ -20,20 +20,14 @@ body {
   font-size: 3rem;
 }
 
+/*    FOOTER    */
+
 footer {
   width: 100%;
   background-color: rgba(244, 111, 48, 0.9);
   /* eller rgb(188, 188, 188); */
   text-align: center;
-  padding: 3rem;
   box-sizing: border-box;
-}
-
-.footer-grid {
-  display: inline-grid;
-  grid-column-gap: 2rem;
-  grid-template-columns: auto auto auto;
-  align-items: center;
 }
 
 .footer-logo-box {
@@ -46,32 +40,9 @@ footer {
   height: auto;
 }
 
-.footer-text {
-  font-size: 1.2rem;
-  height: 1.2rem;
-}
-
-.left-grid {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.right-grid {
-  display: flex;
-  justify-content: flex-start;
-}
-
-
-.footer-text a {
+.footer-logo-text a {
   color: inherit;
   font-weight: bold;
   text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-bottom: 1rem;
 }
 
-.img-credit {
-  white-space: nowrap;
-}
