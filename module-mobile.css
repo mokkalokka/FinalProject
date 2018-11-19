@@ -9,6 +9,16 @@
   font-family: sans-serif;
 }
 
+section {
+  height: 100vh;
+}
+
+#zero .title {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
 .module h2 {
   text-align: center;
 }
