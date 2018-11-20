@@ -81,6 +81,10 @@ section {
   height: auto;
 }
 
+.module a:hover {
+    border-bottom: solid white 0.1rem;
+}
+
 /*                                       FOOTER                                     */
 
 footer {
@@ -127,6 +131,10 @@ footer {
   font-size: 1.1rem;
   height: 1.1rem;
   margin-left: 3rem;
+}
+
+.footer-flex a:hover {
+  border-bottom: solid white 0.1rem;
 }
 
 .contribute span {

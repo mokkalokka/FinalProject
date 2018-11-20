@@ -6,7 +6,7 @@
     z-index: 2;
 }
 .drop-down-menu h5{
-    background-color: rgb(26,26,26)	;
+    background-color: #CD4B0E;  /* evt rgb(26,26,26); */
     border-radius: 2rem;
 }
 
@@ -21,7 +21,7 @@
     border:solid white 0.1rem;
     border-radius: 100%;
     z-index: 2;
-    background-color: rgb(26,26,26);
+    background-color: #CD4B0E;  /* evt rgb(26,26,26); */
 }
 .drop-down-menu h5{
     text-align: center;
@@ -36,7 +36,7 @@
     right:0;
     width: 450px;
     height:100vh;
-    background-color: rgba(244, 111, 48,0.95); /* eller rgba(188, 188, 188, 0.95); */
+    background-color: #CD4B0E;/* evt rgba(244, 111, 48,0.95); */ /* eller rgba(188, 188, 188, 0.95); */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 2;
 }
