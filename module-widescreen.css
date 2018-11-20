@@ -81,6 +81,10 @@ section {
   height: auto;
 }
 
+.module a:hover {
+    border-bottom: solid white 0.1rem;
+}
+
 /*                                       FOOTER                                     */
 
 footer {
