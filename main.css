@@ -24,10 +24,18 @@ body {
 
 footer {
   width: 100%;
-  background-color: rgba(244, 111, 48, 0.9);
+  background-color: #CD4B0E;
+  /* background-color: rgba(244, 111, 48, 0.9); */
   /* eller rgb(188, 188, 188); */
   text-align: center;
   box-sizing: border-box;
+}
+
+.footer-flex a {
+  color: #30bcf4;
+}
+.footer-flex a:visited {
+  color:
 }
 
 .footer-flex {
