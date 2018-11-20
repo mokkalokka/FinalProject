@@ -36,10 +36,10 @@
     position: fixed;
     top: 0;
     right:0;
-    width: 450px;
+    width: 100vw;
     height:100vh;
     background-color: rgba(205,75,14, 0.95);/* evt rgba(244, 111, 48,0.95); */ /* eller rgba(188, 188, 188, 0.95); */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 2;
     text-align: center;
 }
@@ -52,8 +52,7 @@
     text-decoration: none;
     display: block;
     white-space: nowrap;
-    border-bottom: black solid;
-    border-bottom-width: 0.1rem;
+    border-bottom: black solid 0.1rem;
 }
 
 #close {
