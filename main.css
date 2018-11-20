@@ -30,9 +30,10 @@ footer {
   box-sizing: border-box;
 }
 
-.footer-logo-box {
-  height: 8rem;
-  font-size: 0.9rem;
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer-logo {
@@ -45,3 +46,22 @@ footer {
   font-weight: bold;
   text-decoration: none;
 }
+
+
+.contribute {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contribute span {
+  margin: auto 1rem auto auto;
+}
+
+.references {
+  margin-top: 1rem;
+}
+
+
