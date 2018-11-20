@@ -18,7 +18,7 @@
 <body>
 
   <header>
-    <nav class="navbar">
+    <nav class="navbar" role="navigation">
       <ul>
         <li><a href="#one">The Problem</a></li>
         <li><a href="#two">The Solution</a></li>
@@ -28,7 +28,7 @@
       </ul>
     </nav>
 
-    <nav class="drop-down-menu">
+    <nav class="drop-down-menu" role="navigation">
       <h5>Menu</h5>
       <div class="roundBorder">
         <img onclick="toggleMenu()" id="menu-img" src="Media/menu.svg" alt="Drop down menu">
@@ -57,12 +57,12 @@
           Use these arrows to navigate the page (manual scrolling works normally).
         </p>
       </div>
-      <div onClick="slideTransition(1, 0)" class="next"></div>
+      <div onClick="slideTransition(1, 0)" class="next" role="button"></div>
     </section>
 
-  <main>
+  <main role="main">
     <section id="one" class="module-section">
-      <div onClick="slideTransition(-1, 1)" class="prev"></div>
+      <div onClick="slideTransition(-1, 1)" class="prev" role="button"></div>
       <div class="module">
         <div class="module-left">
           <img class="module-img" src="Media\ensomtBarnCropped.png" alt="lonely child">
@@ -82,11 +82,11 @@
           </div>
         </div>
       </div>
-      <div onClick="slideTransition(1, 1)" class="next"></div>
+      <div onClick="slideTransition(1, 1)" class="next" role="button"></div>
     </section>
 
     <section id="two" class="module-section">
-      <div onClick="slideTransition(-1, 2)" class="prev"></div>
+      <div onClick="slideTransition(-1, 2)" class="prev" role="button"></div>
       <div class="module">
         <div class="module-left">
           <img class="module-img" src="Media\cardboardVR.jpg" alt="child with cardboard VR goggles">
@@ -107,7 +107,7 @@
           </div>
         </div>
       </div>
-      <div onClick="slideTransition(1, 2)" class="next"></div>
+      <div onClick="slideTransition(1, 2)" class="next" role="button"></div>
     </section>
 
     <section id="three" class="module-section">
@@ -130,11 +130,11 @@
           </div>
         </div>
       </div>
-      <div onClick="slideTransition(1, 3)" class="next"></div>
+      <div onClick="slideTransition(1, 3)" class="next" role="button"></div>
     </section>
 
     <section id="four" class="module-section">
-      <div onClick="slideTransition(-1, 4)" class="prev"></div>
+      <div onClick="slideTransition(-1, 4)" class="prev" role="button"></div>
       <div class="module">
         <div class="module-left">
           <img class="module-img" src="Media\forskning.jpg" alt="research">
@@ -154,11 +154,11 @@
           </div>
         </div>
       </div>
-      <div onClick="slideTransition(1, 4)" class="next"></div>
+      <div onClick="slideTransition(1, 4)" class="next" role="button"></div>
     </section>
 
     <section id="five" class="module-section">
-      <div onClick="slideTransition(-1, 5)" class="prev"></div>
+      <div onClick="slideTransition(-1, 5)" class="prev" role="button"></div>
       <div class="module">
         <div class="module-left">
           <img class="module-img" src="Media\forskning.jpg" alt="research">
@@ -178,12 +178,13 @@
           </div>
         </div>
       </div>
-      <div onClick="slideTransition(1, 5)" class="next"></div>
+      <div onClick="slideTransition(1, 5)" class="next" role="button"></div>
     </section>
 
   </main>
 
     <section id="six">
+        <div onClick="slideTransition(-1, 6)" class="prev" role="button"></div>
         <footer class="footer-flex">
             <div class="footer-logo-box footer-grid">
               <img class="footer-logo footer-middle-col" alt="logo" src="Media/logo-white.svg">
