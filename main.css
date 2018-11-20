@@ -64,4 +64,11 @@ footer {
   margin-top: 1rem;
 }
 
+a {
+  color: #7070FF;
+}
+a:visited{
+  color: #9933CC;
+}
+
 
