@@ -43,10 +43,10 @@ footer {
 }
 
 .footer-flex a {
-  color: #30bcf4;
+  color: #000000;
 }
 .footer-flex a:visited {
-  color:
+
 }
 
 .footer-flex {
@@ -65,7 +65,6 @@ footer {
   font-weight: bold;
   text-decoration: none;
 }
-
 
 .contribute {
   display: flex;
