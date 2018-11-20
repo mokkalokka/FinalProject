@@ -129,6 +129,10 @@ footer {
   margin-left: 3rem;
 }
 
+.footer-flex a:hover {
+  border-bottom: solid white 0.1rem;
+}
+
 .contribute span {
   font-size: 1rem;
 }
