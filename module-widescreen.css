@@ -24,7 +24,7 @@ section {
 
 .prev {
   position: absolute;
-  top: 5vh;
+  top: 9vh;
   left: 50%;
   margin-left: -36px;
   cursor: pointer;
@@ -33,13 +33,14 @@ section {
 
 .prev:after {
   font-family: Arial;
+  font-size: 2.5rem;
   content: '▲';
 }
 
 .tooltip {
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 51%;
   color: gray;
 }
 
@@ -54,11 +55,13 @@ section {
 
 .next:after {
   font-family: Arial;
+  font-size: 2.5rem;
   content: '▼';
 }
 
 .module {
   width: 80%;
+  height: 80%;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -72,13 +75,14 @@ section {
   transform: scale(1.2);
 }
 
-.module-left {}
+.module-left{}
 
 .module-right {}
 
 .module-img {
   max-width: 100%;
   height: auto;
+  margin-top: 15%;
 }
 
 .module a:hover {
