@@ -64,10 +64,10 @@ footer {
   margin-top: 1rem;
 }
 
-a {
+.module a {
   color: #7070FF;
 }
-a:visited{
+.module a:visited{
   color: #9933CC;
 }
 
