@@ -32,6 +32,7 @@ section {
 }
 
 .prev:after {
+  font-family: Arial;
   content: '▲';
 }
 
@@ -52,6 +53,7 @@ section {
 }
 
 .next:after {
+  font-family: Arial;
   content: '▼';
 }
 
