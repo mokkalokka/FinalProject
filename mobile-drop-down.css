@@ -5,27 +5,29 @@
     position: fixed;
     z-index: 2;
 }
-.drop-down-menu h5{
-    background-color: #CD4B0E;  /* evt rgb(26,26,26); */
+/*.drop-down-menu h5{
+   background-color: #CD4B0E;  /* evt rgb(26,26,26);
     border-radius: 2rem;
 }
-
+*/
 .tooltip {
   display: none;
 }
 
 .roundBorder {
 
+    border:solid white 0.1rem;
+    border-radius: 0.8rem;
+    z-index: 2;
+    background-color:#CD4B0E;
+
 }
 .roundBorder img{
-    border:solid white 0.1rem;
-    border-radius: 100%;
-    z-index: 2;
-    background-color: #CD4B0E;  /* evt rgb(26,26,26); */
+     /* evt rgb(26,26,26); */
 }
 .drop-down-menu h5{
     text-align: center;
-    margin: 0.1rem;
+    margin: 0.2rem 0 -0.4rem 0;
     z-index: 2;
 }
 
