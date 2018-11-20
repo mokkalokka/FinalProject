@@ -47,6 +47,7 @@ footer {
   text-decoration: none;
 }
 
+
 .contribute {
   display: flex;
   justify-content: center;
@@ -62,3 +63,5 @@ footer {
 .references {
   margin-top: 1rem;
 }
+
+
