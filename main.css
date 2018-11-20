@@ -11,6 +11,7 @@ body {
   background-image: url("Media/trianglify.svg");
   background-image: linear-gradient(to bottom, #00000000, #1A1A1AFF), url("Media/trianglify.svg");
   background-size: cover;
+  height: 100vh;
   /*border-bottom: gray solid 0.01rem;*/
   z-index: 10;
 }
@@ -20,7 +21,17 @@ body {
   font-size: 3rem;
 }
 
-/*    FOOTER    */
+/*                                MODULE                  */
+
+.module a {
+  color: #7070FF;
+}
+.module a:visited{
+  color: #9933CC;
+}
+
+
+/*                                FOOTER                    */
 
 footer {
   width: 100%;
@@ -72,11 +83,6 @@ footer {
   margin-top: 1rem;
 }
 
-.module a {
-  color: #7070FF;
-}
-.module a:visited{
-  color: #9933CC;
-}
+
 
 
