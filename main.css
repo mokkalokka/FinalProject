@@ -72,6 +72,7 @@ footer {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
+  padding: 1rem;
 }
 
 .contribute span {
@@ -81,7 +82,3 @@ footer {
 .references {
   margin-top: 1rem;
 }
-
-
-
-
