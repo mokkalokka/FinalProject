@@ -16,7 +16,11 @@ section {
 
 #zero .title {
   position: absolute;
-  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top:50vh;
   transform: translate(0, -50%);
 }
 
