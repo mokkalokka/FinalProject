@@ -59,11 +59,13 @@
 
 #close {
     right: 0;
-    margin: 3rem 2rem 2rem 2rem;
+    margin: 1.2rem 1rem 2rem 2rem;
     position: fixed;
     z-index: 3;
     width: 3rem;
     border-radius:100%;
+    border: none;
+    background-color: #CD4B0E;
 }
 
 #close:hover {

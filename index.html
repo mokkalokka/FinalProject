@@ -34,7 +34,9 @@
         <img  id="menu-img" src="Media/menu.svg" alt="Drop down menu">
       </button>
       <div id="dropdown" class="dropdown-content">
-        <img onclick="toggleMenu()" id="close" src="Media/cancel.svg" alt="Close menu">
+        <button onclick="toggleMenu()" id="close">
+          <img  src="Media/cancel.svg" alt="Close menu">
+        </button>
         <a id="dropdown-one" href="#problem" onclick="toggleMenu()">The Problem</a>
         <a href="#solution" onclick="toggleMenu()">The Solution</a>
         <a href="#references" onclick="toggleMenu()">References</a>
