@@ -21,10 +21,10 @@
     <nav class="navbar" role="navigation">
       <ul>
         <li><a href="#problem">The Problem</a></li>
-        <li><a href="#solution">The Solution</a></li>
-        <li><a href="#references">References</a></li>
-        <li><a href="#research">Research</a></li>
+        <li><a href="#module-two">Virtual Reality</a></li>
+        <li><a href="#solution">The Product</a></li>
         <li><a href="#design">Design</a></li>
+        <li><a href="#research">References</a></li>
       </ul>
     </nav>
 
@@ -38,10 +38,10 @@
           <img  src="Media/cancel.svg" alt="Close menu">
         </button>
         <a id="dropdown-one" href="#problem" onclick="toggleMenu()">The Problem</a>
-        <a href="#solution" onclick="toggleMenu()">The Solution</a>
-        <a href="#references" onclick="toggleMenu()">References</a>
-        <a href="#research" onclick="toggleMenu()">Research</a>
+        <a href="#module-two" onclick="toggleMenu()">Virtual Reality</a>
+        <a href="#solution" onclick="toggleMenu()">The Product</a>
         <a href="#design" onclick="toggleMenu()">Design</a>
+        <a href="#research" onclick="toggleMenu()">References</a>
       </div>
     </nav>
   </header>
@@ -93,7 +93,7 @@
       <button onClick="slideTransition(1, 1)" class="next" role="button"></button>
     </section>
 
-    <section id="solution" class="module-section">
+    <section id="module-two" class="module-section">
       <button onClick="slideTransition(-1, 2)" class="prev" role="button"></button>
       <div class="module">
         <div class="module-left">
@@ -120,7 +120,7 @@
       <button onClick="slideTransition(1, 2)" class="next" role="button"></button>
     </section>
 
-    <section id="references" class="module-section">
+    <section id="solution" class="module-section">
       <button onClick="slideTransition(-1, 3)" class="prev" role="button"></button>
       <div class="module">
         <div class="module-left">
@@ -154,43 +154,8 @@
       <button onClick="slideTransition(1, 3)" class="next" role="button"></button>
     </section>
 
-    <section id="research" class="module-section">
-      <button onClick="slideTransition(-1, 4)" class="prev" role="button"></button>
-      <div class="module">
-        <div class="module-left">
-          <img class="module-img" src="Media\forskning.jpg" alt="research">
-        </div>
-        <div class="module-right">
-          <div class="module-text">
-            <h2>Research & references</h2>
-              <p>
-                  About ASD from The American Psychiatric Association’s Diagnostic and Statistical Manual, Fifth Edition (DSM-5)
-                  <a href="https://www.cdc.gov/ncbddd/autism/hcp-dsm.html">Diagnostic Criteria for ASD</a>
-              </p>
-              <p>
-                  Early intervention: <br>
-                  <a href="https://raisingchildren.net.au/autism/therapies-services/therapies-interventions/intervention-for-children-with-asd">Intervention for children with ASD</a>
-              </p>
-            <p>
-              Numerous academic papers have proven virtual reality as a promising resource for the development of social adaptation and emotional skills.
-            </p>
-            <p>In a <a class="research-link" href="">study from 2018</a>, researchers from Hong Kong conducted a trial using virtual reality as a teaching method for children with ASD. They found significant improvements in the subjects social
-              abilities and emotional expression.</p>
-            <p>
-              VR therapy has been shown to have a positive impact on young adults as well. This is the subject of a study from 2012
-              <a href="https://link.springer.com/article/10.1007/s10803-012-1544-6?fbclid=IwAR3iia-cMzQ9-JOF8PN4oqYlBLLdHz8tVHFvXR4RFDkRjX4OjYnyrEhzBTM">Virtual Reality Social Cognition Training for Young Adults with High-Functioning Autism</a>
-            </p>
-            <p>
-              On UI development for individuals with ASD: <a href="http://file.scirp.org/pdf/JSEA_2014022510055814.pdf">User Interface for People with Autism Spectrum Disorders</a>, Professor Nikolay Pavlov, Plovdiv University.
-            </p>
-          </div>
-        </div>
-      </div>
-      <button onClick="slideTransition(1, 4)" class="next" role="button"></button>
-    </section>
-
     <section id="design" class="module-section">
-      <button onClick="slideTransition(-1, 5)" class="prev" role="button"></button>
+      <button onClick="slideTransition(-1, 4)" class="prev" role="button"></button>
       <div class="module">
         <div class="module-left">
           <img class="module-img" src="Media\design.jpg" alt="design">
@@ -213,6 +178,40 @@
               <li>Simple and direct language - avoiding ambiguous terms and metaphors.</li>
             </ul>
             <p>Alert readers will recognize that some of these guidelines conflict with typical design choices in products made for children – for instance bright colors and sharp contrasts. By consulting with individuals with ASD we have come to the conclusion to put ASD needs first.</p>
+          </div>
+        </div>
+      </div>
+      <button onClick="slideTransition(1, 4)" class="next" role="button"></button>
+    </section>
+
+    <section id="research" class="module-section">
+      <button onClick="slideTransition(-1, 5)" class="prev" role="button"></button>
+      <div class="module">
+        <div class="module-left">
+          <img class="module-img" src="Media\forskning.jpg" alt="research">
+        </div>
+        <div class="module-right">
+          <div class="module-text">
+            <h2>Research & references</h2>
+            <p>
+              About ASD from The American Psychiatric Association’s Diagnostic and Statistical Manual, Fifth Edition (DSM-5)
+              <a href="https://www.cdc.gov/ncbddd/autism/hcp-dsm.html">Diagnostic Criteria for ASD</a>
+            </p>
+            <p>
+              Early intervention: <a href="https://raisingchildren.net.au/autism/therapies-services/therapies-interventions/intervention-for-children-with-asd">Intervention for children with ASD</a>
+            </p>
+            <p>
+              Numerous academic papers have proven virtual reality as a promising resource for the development of social adaptation and emotional skills.
+            </p>
+            <p>In a <a class="research-link" href="">study from 2018</a>, researchers from Hong Kong conducted a trial using virtual reality as a teaching method for children with ASD. They found significant improvements in the subjects social
+              abilities and emotional expression.</p>
+            <p>
+              VR therapy has been shown to have a positive impact on young adults as well. This is the subject of a study from 2012
+              <a href="https://link.springer.com/article/10.1007/s10803-012-1544-6?fbclid=IwAR3iia-cMzQ9-JOF8PN4oqYlBLLdHz8tVHFvXR4RFDkRjX4OjYnyrEhzBTM">Virtual Reality Social Cognition Training for Young Adults with High-Functioning Autism</a>
+            </p>
+            <p>
+              On UI development for individuals with ASD: <a href="http://file.scirp.org/pdf/JSEA_2014022510055814.pdf">User Interface for People with Autism Spectrum Disorders</a>, Professor Nikolay Pavlov, Plovdiv University.
+            </p>
           </div>
         </div>
       </div>
