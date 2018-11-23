@@ -9,15 +9,10 @@ Spørre om:
 - Responsiv nok?
 - Piler IHT accessibility
 - Hvordan er språket? 
-- Logo & text.   
+- Logo & text.
 
 
 --Michael--
-- Title & favicon
-- Font lik til alt
-- Bildestørrelse?
-- Legge inn riktig linker  
--	hamburger ->button
 - taborder?
 
 --Eskil--
@@ -27,7 +22,6 @@ Spørre om:
 - Virtual Aspie fjernes
 
 --Jonathan--
--	div ->buttons	
 
 - Flexbox for modul sentrering
 - Tooltip mer synlig!
