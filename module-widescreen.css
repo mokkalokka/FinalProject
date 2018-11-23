@@ -126,3 +126,18 @@ footer {
 .references {
   font-size: 0.9rem;
 }
+
+
+@media screen and (min-width: 700px) and (max-width: 1280px) {
+  body{
+    font-size: smaller;
+  }
+  .module-left{
+    padding-top: 10vh;
+  }
+  .navbar a{
+    font-size: 1.2rem !important;
+  }
+
+
+}
