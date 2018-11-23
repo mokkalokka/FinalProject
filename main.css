@@ -36,17 +36,12 @@ body {
 footer {
   width: 100%;
   background-color: #CD4B0E;
-  /* background-color: rgba(244, 111, 48, 0.9); */
-  /* eller rgb(188, 188, 188); */
   text-align: center;
   box-sizing: border-box;
 }
 
 .footer-flex a {
   color: #000000;
-}
-.footer-flex a:visited {
-
 }
 
 .footer-flex {
@@ -72,7 +67,6 @@ footer {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem;
 }
 
 .contribute span {
