@@ -14,7 +14,11 @@ body {
   height: 100vh;
   /*border-bottom: gray solid 0.01rem;*/
   z-index: 10;
+}
+
+#zero .title {
   text-align: center;
+  font-size: 3rem;
 }
 
 /*                                MODULE                  */
