@@ -16,11 +16,6 @@ body {
   z-index: 10;
 }
 
-#zero .title {
-  text-align: center;
-  font-size: 3rem;
-}
-
 /*                                MODULE                  */
 
 .module a {
