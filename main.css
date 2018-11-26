@@ -4,21 +4,19 @@ body {
   background: #1A1A1A;
   color: white;
 }
+.title img{
+  width:400px;
+  height: auto;
+}
 
 #zero {
-  /*background-image: url("Media/smoke-background-large.png");*/
   background: #1A1A1A;
   background-image: url("Media/trianglify.svg");
   background-image: linear-gradient(to bottom, #00000000, #1A1A1AFF), url("Media/trianglify.svg");
   background-size: cover;
   height: 100vh;
-  /*border-bottom: gray solid 0.01rem;*/
   z-index: 10;
-}
-
-#zero .title {
   text-align: center;
-  font-size: 3rem;
 }
 
 /*                                MODULE                  */
