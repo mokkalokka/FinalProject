@@ -11,14 +11,14 @@
   <link rel="stylesheet" media="screen and (min-width: 901px)" href="widescreen-navbar.css">
   <link rel="shortcut icon" type="image/png" href="Media/favicon.png"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="text/javascript" src="script.js"></script>
+  <script src="script.js"></script>
   <script src="./scroll.js" defer></script>
 </head>
 
 <body>
 
   <header>
-    <nav class="navbar" role="navigation">
+    <nav class="navbar">
       <ul>
         <li><a href="#problem">The Problem</a></li>
         <li><a href="#module-two">Virtual Reality</a></li>
@@ -28,9 +28,9 @@
       </ul>
     </nav>
 
-    <nav class="drop-down-menu" role="navigation">
+    <nav class="drop-down-menu">
       <button  class="roundBorder" onclick="toggleMenu()">
-      <h5>Menu</h5>
+      <span>Menu</span>
         <img  id="menu-img" src="Media/menu.svg" alt="Drop down menu">
       </button>
       <div id="dropdown" class="dropdown-content">
@@ -51,7 +51,7 @@
 
     <section id="zero">
       <div class="title">
-        <img alt="logo" width="200px" height="auto" src="Media/logo-white.svg">
+        <img alt="logo" src="Media/logo-white.svg">
         <h1>socible</h1>
       </div>
       <div class="tooltip">
@@ -59,15 +59,15 @@
           Use these arrows to navigate.
         </p>
       </div>
-      <button onClick="slideTransition(1, 0)" class="next" role="navigation"  title="Next page "  >▼</button>
+      <button onClick="slideTransition(1, 0)" class="next" aria-label="navigation"  title="Next page "  >▼</button>
     </section>
 
-  <main role="main">
+  <main>
     <section id="problem" class="module-section">
-      <button onClick="slideTransition(-1, 1)" class="prev" role="navigation"  title="Previous page" >▲</button>
+      <button onClick="slideTransition(-1, 1)" class="prev" aria-label="navigation"  title="Previous page" >▲</button>
       <div class="module">
         <div class="module-left">
-          <img class="module-img" src="Media\ensomtBarnCroppedv2.jpg" alt="lonely child">
+          <img class="module-img" src="Media/ensomtBarnCroppedv2.jpg" alt="lonely child">
         </div>
         <div class="module-right">
           <div class="module-text">
@@ -90,14 +90,14 @@
           </div>
         </div>
       </div>
-      <button onClick="slideTransition(1, 1)" class="next" role="navigation"  title="Next page "  >▼</button>
+      <button onClick="slideTransition(1, 1)" class="next" aria-label="navigation"  title="Next page "  >▼</button>
     </section>
 
     <section id="module-two" class="module-section">
-      <button onClick="slideTransition(-1, 2)" class="prev" role="navigation"  title="Previous page" >▲</button>
+      <button onClick="slideTransition(-1, 2)" class="prev" aria-label="navigation"  title="Previous page" >▲</button>
       <div class="module">
         <div class="module-left">
-          <img class="module-img" src="Media\jenteVR.jpg" alt="girl with VR goggles">
+          <img class="module-img" src="Media/jenteVR.jpg" alt="girl with VR goggles">
         </div>
         <div class="module-right">
           <div class="module-text">
@@ -117,14 +117,14 @@
           </div>
         </div>
       </div>
-      <button onClick="slideTransition(1, 2)" class="next" role="navigation"  title="Next page  "  >▼</button>
+      <button onClick="slideTransition(1, 2)" class="next" aria-label="navigation"  title="Next page  "  >▼</button>
     </section>
 
     <section id="solution" class="module-section">
-      <button onClick="slideTransition(-1, 3)" class="prev" role="navigation"  title="Previous page" >▲</button>
+      <button onClick="slideTransition(-1, 3)" class="prev" aria-label="navigation"  title="Previous page" >▲</button>
       <div class="module">
         <div class="module-left">
-          <img class="module-img" src="Media\cardboardVR.jpg" alt="child with cardboard VR goggles">
+          <img class="module-img" src="Media/cardboardVR.jpg" alt="child with cardboard VR goggles">
         </div>
         <div class="module-right">
           <div class="module-text">
@@ -151,14 +151,14 @@
           </div>
         </div>
       </div>
-      <button onClick="slideTransition(1, 3)" class="next" role="navigation"  title="Next page  "  >▼</button>
+      <button onClick="slideTransition(1, 3)" class="next" aria-label="navigation"  title="Next page  "  >▼</button>
     </section>
 
     <section id="design" class="module-section">
-      <button onClick="slideTransition(-1, 4)" class="prev" role="navigation"  title="Previous page"  >▲</button>
+      <button onClick="slideTransition(-1, 4)" class="prev" aria-label="navigation"  title="Previous page"  >▲</button>
       <div class="module">
         <div class="module-left">
-          <img class="module-img" src="Media\design.jpg" alt="design">
+          <img class="module-img" src="Media/design.jpg" alt="design">
         </div>
         <div class="module-right">
           <div class="module-text">
@@ -181,15 +181,15 @@
           </div>
         </div>
       </div>
-      <button onClick="slideTransition(1, 4)" class="next" role="navigation"  title="Next page  "  >▼</button>
+      <button onClick="slideTransition(1, 4)" class="next" aria-label="navigation"  title="Next page  "  >▼</button>
     </section>
 
 
     <section id="research" class="module-section">
-      <button onClick="slideTransition(-1, 5)" class="prev" role="navigation"  title="Previous page" >▲</button>
+      <button onClick="slideTransition(-1, 5)" class="prev" aria-label="navigation"  title="Previous page" >▲</button>
       <div class="module">
         <div class="module-left">
-          <img class="module-img" src="Media\forskning.jpg" alt="research">
+          <img class="module-img" src="Media/forskning.jpg" alt="research">
         </div>
         <div class="module-right">
           <div class="module-text">
@@ -216,13 +216,13 @@
           </div>
         </div>
       </div>
-      <button onClick="slideTransition(1, 5)" class="next" role="navigation"  title="Next page  " >▼</button>
+      <button onClick="slideTransition(1, 5)" class="next" aria-label="navigation"  title="Next page  " >▼</button>
     </section>
 
   </main>
 
     <section id="six">
-      <button onClick="slideTransition(-1, 6)" class="prev" role="navigation"  title="Previous page" >▲</button>
+      <button onClick="slideTransition(-1, 6)" class="prev" aria-label="navigation"  title="Previous page" >▲</button>
         <footer class="footer-flex">
             <div class="footer-logo-box footer-grid">
               <img class="footer-logo footer-middle-col" alt="logo" src="Media/logo-white.svg">
@@ -238,9 +238,9 @@
              <span class="img-credit">In module "Research" by Lukas from <a href="https://www.pexels.com/photo/chart-close-up-data-desk-590022/">Pexels</a>.</span>
              <span class="img-credit">In module "Design" by Tranmautritam from <a href="https://www.pexels.com/photo/information-sign-on-shelf-251225/">Pexels</a>.</span>
              <span class="img-credit">Icons made by <a href="https://www.flaticon.com/authors/lucy-g">Lucy-G</a> from <a
-                 href="www.flaticon.com">flaticon</a>.</span>
+                 href="https://www.flaticon.com">flaticon</a>.</span>
              <span class="img-credit">Logo icon made by <a href="https://www.flaticon.com/authors/monkik">Monkik</a> from <a
-                 href="www.flaticon.com">flaticon</a></span>
+                 href="https://www.flaticon.com">flaticon</a></span>
               <span class="img-credit">Background generated at <a href="https://trianglify.io/">Trianglify</a></span>
            </div>
         </footer>
