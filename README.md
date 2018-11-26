@@ -11,6 +11,15 @@ Spørre om:
 - Hvordan er språket? 
 - Logo & text.
 
+-Fjerne role
+- Generell semantikk
+- lenker visited
+- taborder?
+- Større skrift
+- meny når man zoomer
+- navbar hvis hvor man er
+- bug av pil js
+
 
 --Michael--
 - taborder?
