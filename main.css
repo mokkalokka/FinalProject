@@ -57,6 +57,10 @@ footer {
   height: auto;
 }
 
+address {
+  font-style: normal;
+}
+
 .footer-logo-text a {
   color: inherit;
   font-weight: bold;
