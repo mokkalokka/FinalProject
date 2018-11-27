@@ -127,6 +127,7 @@ footer {
   font-size: 0.9rem;
 }
 
+/*                                     MELLOMSTORE SKJERMER                            */
 
 @media screen and (min-width: 900px) and (max-width: 1280px) {
   body{
@@ -138,9 +139,21 @@ footer {
   }
 
   .module {
-    width: 90%;
+    width: 95%;
     grid-template-columns: 1fr 2fr;
 
+  }
+
+  .footer-logo-text {
+      font-size: 1rem;
+  }
+
+  .contribute span {
+      font-size: 0.9rem;
+  }
+
+  .references {
+      font-size: 0.8rem;
   }
 
 }
