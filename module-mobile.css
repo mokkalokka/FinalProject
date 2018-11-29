@@ -29,6 +29,10 @@ section {
   top:50vh;
   transform: translate(0, -50%);
 }
+.title img{
+  width:300px;
+  height: auto;
+}
 
 .module h2 {
   text-align: center;

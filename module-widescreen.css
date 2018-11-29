@@ -20,6 +20,10 @@ section {
   align-items: center;
   justify-content: center;
 }
+.title img{
+  width:400px;
+  height: auto;
+}
 
 
 .prev {
