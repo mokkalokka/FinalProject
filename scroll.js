@@ -5,20 +5,24 @@ frame.style.transition = transitionFormula;
 
 function slideTransition(i, n) {
 
-  currentSection = sections[n];
-  var offsetTop = currentSection.getBoundingClientRect();
-  var scrolledDown = currentSection.offsetTop;
-  // Magisk formel, ikke rør, virker nå
-  frame.style.top = (i * (-offsetTop.height - offsetTop.top)) + 'px';
+    currentSection = sections[n];
+    var offsetTop = currentSection.getBoundingClientRect();
+    var scrolledDown = currentSection.offsetTop;
+    // Magisk formel, ikke rør, virker nå
+    //frame.style.top = (i * (-offsetTop.height - offsetTop.top)) + 'px';
+    window.scroll({
+        top: (i * offsetTop.height) + scrolledDown,
+        left: 0,
+        behavior: 'smooth'
+    });
 
-  setTimeout(function() {
-    // Flytt ordenlig scrollbar etter transistion
-    frame.style.transition = 'none';
-    frame.style.top = '';
-    window.scrollTo(0, (i * offsetTop.height) + scrolledDown);
-    frame.style.transition = transitionFormula;
+    /*setTimeout(function() {
+      // Flytt ordenlig scrollbar etter transistion
+      frame.style.transition = 'none';
+      frame.style.top = '';
+      window.scrollTo(0, (i * offsetTop.height) + scrolledDown);
+      frame.style.transition = transitionFormula;
 
-
-    //Timeout lik som transistion time 0,8 s
-  }, 800);
+      //Timeout lik som transistion time 0,8 s
+    }, 800);*/
 }
