@@ -16,7 +16,6 @@
 
 
 .roundBorder {
-
   border:solid white 0.1rem;
   border-radius: 0.8rem;
   z-index: 2;
@@ -41,7 +40,7 @@
   right:0;
   width: 100vw;
   height:100vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   background-color: rgba(205,75,14, 0.95);/* evt rgba(244, 111, 48,0.95); */ /* eller rgba(188, 188, 188, 0.95); */
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 2;
@@ -50,14 +49,17 @@
 
 
 .dropdown-content a {
+  width: 60vw;
+  margin: auto;
   color: black;
   font-size: 2rem;
   padding: 1rem;
   text-decoration: none;
   display: block;
   white-space: nowrap;
-  border-bottom: black solid 0.1rem;
+  border-bottom: black solid 0.1rem
 }
+
 
 #close {
   right: 0;
@@ -65,14 +67,15 @@
   position: fixed;
   z-index: 3;
   width: 3rem;
-  border-radius:100%;
+  height: 3rem;
+  border-radius: 50%;
   border: none;
   background-color: #CD4B0E;
 }
 
 #close:hover {
   background-color: rgba(255,255,255,0.7);
-  border:solid 0.2rem rgba(255,255,255,0.2);
+  border: solid 0.2rem rgba(255,255,255,0.2);
 }
 
 #dropdown-one {
