@@ -6,7 +6,7 @@ function toggleMenu() {
     x.style.display = "none";
     menyKnapp.style.display = "block";
   } else {
-    x.style.display = "block"
+    x.style.display = "block";
     menyKnapp.style.display = "none";
   }
 }

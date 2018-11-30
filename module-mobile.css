@@ -5,14 +5,10 @@
 }
 
 .module {
-  margin-bottom: 5rem;
   display: block;
   margin: 0.7rem;
 }
 
-section {
-
-}
 .prev{
   display:none;
 }
@@ -37,10 +33,6 @@ section {
 .module h2 {
   text-align: center;
 }
-
-.module-left {}
-
-.module-right {}
 
 .module-img {
   max-width: 100%;
