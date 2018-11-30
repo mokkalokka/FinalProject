@@ -40,7 +40,6 @@ section {
 
 .prev:after {
   font-size: 2.5rem;
-  /*content: '▲';*/
 }
 
 .tooltip {
@@ -64,7 +63,6 @@ section {
 
 .next:after {
   font-size: 2.5rem;
-  /*content: '▼';*/
 }
 
 .module {
@@ -81,10 +79,6 @@ section {
 .next:hover, .prev:hover {
   transform: scale(1.2);
 }
-
-.module-left{}
-
-.module-right {}
 
 .module-img {
   max-width: 100%;
@@ -145,7 +139,6 @@ footer {
   .module {
     width: 95%;
     grid-template-columns: 1fr 2fr;
-
   }
 
   .footer-logo-text {
